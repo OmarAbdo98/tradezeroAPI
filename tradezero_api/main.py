@@ -44,7 +44,8 @@ class TradeZero(Time):
         options = webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         if headless is True:
-            options.headless = headless
+            options.headless = True 
+            print('running in headless')
 
         self.driver = webdriver.Chrome(service=service, options=options)
         self.driver.get(TZ_HOME_URL)
