@@ -24,7 +24,7 @@ from .enums import Order, TIF
 os.system('color')
 
 TZ_HOME_URL = 'https://standard.tradezeroweb.us/'
-
+TZ_HOME_URL = 'https://youtube.com'
 
 class TradeZero(Time):
     def __init__(self, user_name: str, password: str, headless: bool = False,
