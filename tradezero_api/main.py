@@ -43,8 +43,9 @@ class TradeZero(Time):
         service = ChromeService(ChromeDriverManager().install())
         options = webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        print('hi')
         if headless is True:
-            options.headless = True 
+            options.add_argument('--headless') 
             print('running in headless')
 
         self.driver = webdriver.Chrome(service=service, options=options)
