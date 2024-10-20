@@ -22,8 +22,8 @@ issues = "https://github.com/shner-elmo/tradezero-api/issues"
 
 [tool.poetry.dependencies]
 python = ">=3.9"
-selenium = "^4.8.2"
-webdriver-manager = "^3.8.5"
+selenium = "^4.11.0"
+webdriver-manager = "^4.0.2"
 pandas = "^2.2.3"
 lxml = "^4.9.2"
 pytz = "^2022.7.1"
